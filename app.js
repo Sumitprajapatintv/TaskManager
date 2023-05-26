@@ -8,6 +8,7 @@ const PORT = 3000;
 //middleare
 app.use(express.json());
 
+//Routes
 app.get("/hello", (req, res) => {
   res.send("tASKmaNAGER");
 });
